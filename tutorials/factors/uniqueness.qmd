@@ -29,7 +29,7 @@ is.vector(f1)
 is.vector(f2)
 ```
 
-Similarly, even though factors are built from integer vectors, we can't do mathematical operations on vectors. Since
+Similarly, even though factors are built from integer vectors, we can't do mathematical operations on factors. Since
 factors represent discrete categories, not continuous quantities, mathematical operations on factors are generally
 meaningless.
 

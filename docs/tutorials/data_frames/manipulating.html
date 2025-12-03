@@ -404,7 +404,7 @@ globalThis.qwebrCustomizedWebROptions = {
 };
 
 // Store cell data
-globalThis.qwebrCellDetails = [{"id":1,"code":"df <- data.frame(a = rep(NA, 10),\n                 b = rep(NA, 10),\n                 c = rep(NA, 10)\n                 )","options":{"fig-height":5,"read-only":"false","classes":"","output":"true","warning":"true","editor-font-scale":"1","editor-max-height":"","autorun":"false","editor-word-wrap":"true","dpi":72,"label":"unnamed-chunk-1","fig-cap":"","out-height":"","results":"markup","out-width":"700px","message":"true","context":"interactive","comment":"","editor-quick-suggestions":"false","fig-width":7}}];
+globalThis.qwebrCellDetails = [{"code":"df <- data.frame(a = rep(NA, 10),\n                 b = rep(NA, 10),\n                 c = rep(NA, 10)\n                 )","options":{"editor-max-height":"","results":"markup","editor-word-wrap":"true","editor-font-scale":"1","fig-width":7,"context":"interactive","read-only":"false","out-width":"700px","label":"unnamed-chunk-1","fig-height":5,"warning":"true","output":"true","fig-cap":"","classes":"","autorun":"false","message":"true","editor-quick-suggestions":"false","out-height":"","dpi":72,"comment":""},"id":1}];
 
 </script>
 <script type="module">
@@ -1658,32 +1658,6 @@ globalThis.qwebrExecuteCode = async function (
 
 </script>
 <style>
-div.callout-practice.callout {
-  border-left-color: green;
-}
-div.callout-practice.callout-style-default > .callout-header {
-  background-color: rgb(from green r g b / 13%);
-}
-div.callout-practice .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewbox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"></path></svg>');}
-div.callout-practice.callout-style-default .callout-icon::before, div.callout-practice.callout-titled .callout-icon::before {
-  font-family: 'Font Awesome 6 Free', FontAwesome;
-  font-style: normal;
-  content: '\f085' !important;
-  background-image: none;
-}
-div.callout-reading.callout {
-  border-left-color: purple;
-}
-div.callout-reading.callout-style-default > .callout-header {
-  background-color: rgb(from purple r g b / 13%);
-}
-div.callout-reading .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewbox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"></path></svg>');}
-div.callout-reading.callout-style-default .callout-icon::before, div.callout-reading.callout-titled .callout-icon::before {
-  font-family: 'Font Awesome 6 Free', FontAwesome;
-  font-style: normal;
-  content: '\f518' !important;
-  background-image: none;
-}
 div.callout-resource.callout {
   border-left-color: orange;
 }
@@ -1697,6 +1671,19 @@ div.callout-resource.callout-style-default .callout-icon::before, div.callout-re
   content: '\f0c1' !important;
   background-image: none;
 }
+div.callout-practice.callout {
+  border-left-color: green;
+}
+div.callout-practice.callout-style-default > .callout-header {
+  background-color: rgb(from green r g b / 13%);
+}
+div.callout-practice .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewbox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"></path></svg>');}
+div.callout-practice.callout-style-default .callout-icon::before, div.callout-practice.callout-titled .callout-icon::before {
+  font-family: 'Font Awesome 6 Free', FontAwesome;
+  font-style: normal;
+  content: '\f085' !important;
+  background-image: none;
+}
 div.callout-reading-advanced.callout {
   border-left-color: red;
 }
@@ -1705,6 +1692,19 @@ div.callout-reading-advanced.callout-style-default > .callout-header {
 }
 div.callout-reading-advanced .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewbox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"></path></svg>');}
 div.callout-reading-advanced.callout-style-default .callout-icon::before, div.callout-reading-advanced.callout-titled .callout-icon::before {
+  font-family: 'Font Awesome 6 Free', FontAwesome;
+  font-style: normal;
+  content: '\f518' !important;
+  background-image: none;
+}
+div.callout-reading.callout {
+  border-left-color: purple;
+}
+div.callout-reading.callout-style-default > .callout-header {
+  background-color: rgb(from purple r g b / 13%);
+}
+div.callout-reading .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewbox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"></path></svg>');}
+div.callout-reading.callout-style-default .callout-icon::before, div.callout-reading.callout-titled .callout-icon::before {
   font-family: 'Font Awesome 6 Free', FontAwesome;
   font-style: normal;
   content: '\f518' !important;
@@ -2288,7 +2288,7 @@ globalThis.qwebrCreateMonacoEditorInstance = function (cellData) {
 <span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>                 )</span>
 <span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>d1<span class="sc">$</span>b</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
-<pre><code> [1] "bar" "bar" "foo" "bar" "bar" "foo" "foo" "bar" "foo" "foo"</code></pre>
+<pre><code> [1] "bar" "foo" "foo" "foo" "bar" "foo" "foo" "bar" "bar" "foo"</code></pre>
 </div>
 <div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">data</span>(iris)</span>
 <span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>iris<span class="sc">$</span>Petal.Length</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
@@ -2315,14 +2315,14 @@ globalThis.qwebrCreateMonacoEditorInstance = function (cellData) {
 <div class="cell-output cell-output-stdout">
 <pre><code>     b
 1  bar
-2  bar
+2  foo
 3  foo
-4  bar
+4  foo
 5  bar
 6  foo
 7  foo
 8  bar
-9  foo
+9  bar
 10 foo</code></pre>
 </div>
 <div class="sourceCode cell-code" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="co"># The same as above, but using the column index instead of the column name</span></span>
@@ -2330,55 +2330,55 @@ globalThis.qwebrCreateMonacoEditorInstance = function (cellData) {
 <div class="cell-output cell-output-stdout">
 <pre><code>     b
 1  bar
-2  bar
+2  foo
 3  foo
-4  bar
+4  foo
 5  bar
 6  foo
 7  foo
 8  bar
-9  foo
+9  bar
 10 foo</code></pre>
 </div>
 <div class="sourceCode cell-code" id="cb9"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Return a two-column data frame comprising the 'a' and 'b' columns from d1</span></span>
 <span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a>d1[<span class="fu">c</span>(<span class="st">"a"</span>, <span class="st">"b"</span>)]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>       a   b
-1  FALSE bar
-2   TRUE bar
+1   TRUE bar
+2  FALSE foo
 3   TRUE foo
-4   TRUE bar
+4   TRUE foo
 5   TRUE bar
 6  FALSE foo
-7   TRUE foo
-8   TRUE bar
-9  FALSE foo
-10 FALSE foo</code></pre>
+7  FALSE foo
+8  FALSE bar
+9  FALSE bar
+10  TRUE foo</code></pre>
 </div>
 <div class="sourceCode cell-code" id="cb11"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="co"># The same as above, but using the column indices instead of the column names</span></span>
 <span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a>d1[<span class="dv">1</span><span class="sc">:</span><span class="dv">2</span>]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>       a   b
-1  FALSE bar
-2   TRUE bar
+1   TRUE bar
+2  FALSE foo
 3   TRUE foo
-4   TRUE bar
+4   TRUE foo
 5   TRUE bar
 6  FALSE foo
-7   TRUE foo
-8   TRUE bar
-9  FALSE foo
-10 FALSE foo</code></pre>
+7  FALSE foo
+8  FALSE bar
+9  FALSE bar
+10  TRUE foo</code></pre>
 </div>
 <div class="sourceCode cell-code" id="cb13"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Return the 'b' column from d1 as a character vector</span></span>
 <span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a>d1[[<span class="st">"b"</span>]]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
-<pre><code> [1] "bar" "bar" "foo" "bar" "bar" "foo" "foo" "bar" "foo" "foo"</code></pre>
+<pre><code> [1] "bar" "foo" "foo" "foo" "bar" "foo" "foo" "bar" "bar" "foo"</code></pre>
 </div>
 <div class="sourceCode cell-code" id="cb15"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a><span class="co"># The same as above, but using the column index instead of the column name</span></span>
 <span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a>d1[[<span class="dv">2</span>]]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
-<pre><code> [1] "bar" "bar" "foo" "bar" "bar" "foo" "foo" "bar" "foo" "foo"</code></pre>
+<pre><code> [1] "bar" "foo" "foo" "foo" "bar" "foo" "foo" "bar" "bar" "foo"</code></pre>
 </div>
 </div>
 <section id="matrix-style-selection" class="level3">
@@ -2388,35 +2388,35 @@ globalThis.qwebrCreateMonacoEditorInstance = function (cellData) {
 <div class="sourceCode cell-code" id="cb17"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a>d1[<span class="dv">1</span><span class="sc">:</span><span class="dv">2</span>, <span class="dv">2</span><span class="sc">:</span><span class="dv">3</span>]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>    b         c
-1 bar 0.4957513
-2 bar 0.3761720</code></pre>
+1 bar 0.9977583
+2 foo 0.4694688</code></pre>
 </div>
 <div class="sourceCode cell-code" id="cb19"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a>d1[ , <span class="dv">1</span><span class="sc">:</span><span class="dv">2</span>]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>       a   b
-1  FALSE bar
-2   TRUE bar
+1   TRUE bar
+2  FALSE foo
 3   TRUE foo
-4   TRUE bar
+4   TRUE foo
 5   TRUE bar
 6  FALSE foo
-7   TRUE foo
-8   TRUE bar
-9  FALSE foo
-10 FALSE foo</code></pre>
+7  FALSE foo
+8  FALSE bar
+9  FALSE bar
+10  TRUE foo</code></pre>
 </div>
 <div class="sourceCode cell-code" id="cb21"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a>d1[<span class="dv">2</span><span class="sc">:</span><span class="dv">3</span>, ]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
-<pre><code>     a   b         c
-2 TRUE bar 0.3761720
-3 TRUE foo 0.9735387</code></pre>
+<pre><code>      a   b         c
+2 FALSE foo 0.4694688
+3  TRUE foo 0.1587081</code></pre>
 </div>
 </div>
 <p>In most cases, matrix style subsetting behaves the same was as the <code>[]</code> list-style operator—you can select any number of elements, and the selection is returned as a data frame—but there is one exception If you select a single column using matrix-style subsetting, the selection will be converted to a vector.</p>
 <div class="cell" data-layout-align="center">
 <div class="sourceCode cell-code" id="cb23"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb23-1"><a href="#cb23-1" aria-hidden="true" tabindex="-1"></a>d1[ , <span class="dv">1</span>]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
-<pre><code> [1] FALSE  TRUE  TRUE  TRUE  TRUE FALSE  TRUE  TRUE FALSE FALSE</code></pre>
+<pre><code> [1]  TRUE FALSE  TRUE  TRUE  TRUE FALSE FALSE FALSE FALSE  TRUE</code></pre>
 </div>
 </div>
 </section>
@@ -2428,17 +2428,17 @@ globalThis.qwebrCreateMonacoEditorInstance = function (cellData) {
 <div class="sourceCode cell-code" id="cb25"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb25-1"><a href="#cb25-1" aria-hidden="true" tabindex="-1"></a><span class="co"># View the original data frame</span></span>
 <span id="cb25-2"><a href="#cb25-2" aria-hidden="true" tabindex="-1"></a>d1</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
-<pre><code>       a   b          c
-1  FALSE bar 0.49575135
-2   TRUE bar 0.37617197
-3   TRUE foo 0.97353867
-4   TRUE bar 0.30581726
-5   TRUE bar 0.58252890
-6  FALSE foo 0.75880503
-7   TRUE foo 0.04691056
-8   TRUE bar 0.27594473
-9  FALSE foo 0.45335390
-10 FALSE foo 0.04816235</code></pre>
+<pre><code>       a   b         c
+1   TRUE bar 0.9977583
+2  FALSE foo 0.4694688
+3   TRUE foo 0.1587081
+4   TRUE foo 0.8263225
+5   TRUE bar 0.4116577
+6  FALSE foo 0.1169888
+7  FALSE foo 0.2909142
+8  FALSE bar 0.3785526
+9  FALSE bar 0.9349888
+10  TRUE foo 0.2315520</code></pre>
 </div>
 <div class="sourceCode cell-code" id="cb27"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb27-1"><a href="#cb27-1" aria-hidden="true" tabindex="-1"></a><span class="do">## Modify some list elements</span></span>
 <span id="cb27-2"><a href="#cb27-2" aria-hidden="true" tabindex="-1"></a>d1<span class="sc">$</span>a <span class="ot">&lt;-</span> LETTERS[<span class="dv">1</span><span class="sc">:</span><span class="dv">10</span>]</span>
@@ -2449,16 +2449,16 @@ globalThis.qwebrCreateMonacoEditorInstance = function (cellData) {
 <span id="cb27-7"><a href="#cb27-7" aria-hidden="true" tabindex="-1"></a>d1</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>   a          b     c
-1  A -0.5906956  TRUE
-2  B -0.5742008  TRUE
-3  C -1.7411826  TRUE
-4  D  0.0294189  TRUE
-5  E  1.1534412  TRUE
-6  F  0.6410818 FALSE
-7  G -1.3527182 FALSE
-8  H -1.7820197 FALSE
-9  I  0.7982336 FALSE
-10 J  1.5504525 FALSE</code></pre>
+1  A  0.6267156  TRUE
+2  B  1.5459290  TRUE
+3  C  0.1925901  TRUE
+4  D  0.8329911  TRUE
+5  E -0.0529080  TRUE
+6  F  1.2524460 FALSE
+7  G -0.4795803 FALSE
+8  H -0.7851923 FALSE
+9  I -1.5581979 FALSE
+10 J -0.7658068 FALSE</code></pre>
 </div>
 </div>
 <p>When modifying multiple columns with the <code>[]</code>, operator, it’s best to supply the replacement values as a data frame or list with the same size as the selected columns.</p>
@@ -2484,17 +2484,17 @@ globalThis.qwebrCreateMonacoEditorInstance = function (cellData) {
 <span id="cb31-2"><a href="#cb31-2" aria-hidden="true" tabindex="-1"></a>d1[<span class="fu">c</span>(<span class="st">"a"</span>, <span class="st">"c"</span>)] <span class="ot">&lt;-</span> <span class="fu">list</span>(<span class="fu">rnorm</span>(<span class="dv">10</span>), <span class="fu">runif</span>(<span class="dv">10</span>))</span>
 <span id="cb31-3"><a href="#cb31-3" aria-hidden="true" tabindex="-1"></a>d1</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
-<pre><code>            a   b         c
-1  -0.5783726 3.5 0.3187378
-2   0.2407284 3.0 0.6187480
-3   0.2428955 3.2 0.2440667
-4   1.1796540 3.1 0.4660315
-5  -0.1874361 3.6 0.2406703
-6  -0.9529284 3.9 0.6078704
-7   0.5847080 3.4 0.3974096
-8   2.1370098 3.4 0.7703554
-9  -0.1480493 2.9 0.1016348
-10  1.7395392 3.1 0.8043306</code></pre>
+<pre><code>             a   b          c
+1   0.64522752 3.5 0.64463832
+2  -0.94403280 3.0 0.68292331
+3   1.20767989 3.2 0.39321446
+4   1.13161260 3.1 0.06890338
+5  -0.94918157 3.6 0.22412153
+6  -1.94258303 3.9 0.06160546
+7   0.08470501 3.4 0.79903592
+8  -0.78728475 3.4 0.31985047
+9  -1.82277772 2.9 0.34235694
+10  2.04021870 3.1 0.61118128</code></pre>
 </div>
 </div>
 <section id="matrix-style-selection-1" class="level3">
@@ -2504,32 +2504,32 @@ globalThis.qwebrCreateMonacoEditorInstance = function (cellData) {
 <div class="sourceCode cell-code" id="cb33"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb33-1"><a href="#cb33-1" aria-hidden="true" tabindex="-1"></a>d1[<span class="dv">1</span><span class="sc">:</span><span class="dv">5</span>, <span class="dv">2</span>] <span class="ot">&lt;-</span> <span class="dv">41</span><span class="sc">:</span><span class="dv">45</span></span>
 <span id="cb33-2"><a href="#cb33-2" aria-hidden="true" tabindex="-1"></a>d1</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
-<pre><code>            a    b         c
-1  -0.5783726 41.0 0.3187378
-2   0.2407284 42.0 0.6187480
-3   0.2428955 43.0 0.2440667
-4   1.1796540 44.0 0.4660315
-5  -0.1874361 45.0 0.2406703
-6  -0.9529284  3.9 0.6078704
-7   0.5847080  3.4 0.3974096
-8   2.1370098  3.4 0.7703554
-9  -0.1480493  2.9 0.1016348
-10  1.7395392  3.1 0.8043306</code></pre>
+<pre><code>             a    b          c
+1   0.64522752 41.0 0.64463832
+2  -0.94403280 42.0 0.68292331
+3   1.20767989 43.0 0.39321446
+4   1.13161260 44.0 0.06890338
+5  -0.94918157 45.0 0.22412153
+6  -1.94258303  3.9 0.06160546
+7   0.08470501  3.4 0.79903592
+8  -0.78728475  3.4 0.31985047
+9  -1.82277772  2.9 0.34235694
+10  2.04021870  3.1 0.61118128</code></pre>
 </div>
 <div class="sourceCode cell-code" id="cb35"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb35-1"><a href="#cb35-1" aria-hidden="true" tabindex="-1"></a>d1[<span class="dv">3</span><span class="sc">:</span><span class="dv">6</span>, <span class="fu">c</span>(<span class="st">"a"</span>, <span class="st">"c"</span>)] <span class="ot">&lt;-</span> <span class="fu">list</span>(<span class="sc">-</span><span class="dv">99</span>, <span class="dv">888</span>)</span>
 <span id="cb35-2"><a href="#cb35-2" aria-hidden="true" tabindex="-1"></a>d1</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
-<pre><code>             a    b           c
-1   -0.5783726 41.0   0.3187378
-2    0.2407284 42.0   0.6187480
-3  -99.0000000 43.0 888.0000000
-4  -99.0000000 44.0 888.0000000
-5  -99.0000000 45.0 888.0000000
-6  -99.0000000  3.9 888.0000000
-7    0.5847080  3.4   0.3974096
-8    2.1370098  3.4   0.7703554
-9   -0.1480493  2.9   0.1016348
-10   1.7395392  3.1   0.8043306</code></pre>
+<pre><code>              a    b           c
+1    0.64522752 41.0   0.6446383
+2   -0.94403280 42.0   0.6829233
+3  -99.00000000 43.0 888.0000000
+4  -99.00000000 44.0 888.0000000
+5  -99.00000000 45.0 888.0000000
+6  -99.00000000  3.9 888.0000000
+7    0.08470501  3.4   0.7990359
+8   -0.78728475  3.4   0.3198505
+9   -1.82277772  2.9   0.3423569
+10   2.04021870  3.1   0.6111813</code></pre>
 </div>
 </div>
 </section>
@@ -2542,16 +2542,16 @@ globalThis.qwebrCreateMonacoEditorInstance = function (cellData) {
 <span id="cb37-3"><a href="#cb37-3" aria-hidden="true" tabindex="-1"></a>d1</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>   a b           c
-1  1 1   0.3187378
-2  2 2   0.6187480
+1  1 1   0.6446383
+2  2 2   0.6829233
 3  3 3 888.0000000
 4  4 4 888.0000000
 5  5 5 888.0000000
 6  1 1 888.0000000
-7  2 2   0.3974096
-8  3 3   0.7703554
-9  4 4   0.1016348
-10 5 5   0.8043306</code></pre>
+7  2 2   0.7990359
+8  3 3   0.3198505
+9  4 4   0.3423569
+10 5 5   0.6111813</code></pre>
 </div>
 <div class="sourceCode cell-code" id="cb39"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb39-1"><a href="#cb39-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Replace the 'a' and 'c' columns in d1 with a list containing vectors that</span></span>
 <span id="cb39-2"><a href="#cb39-2" aria-hidden="true" tabindex="-1"></a><span class="co"># will need to be recycled</span></span>
@@ -2609,17 +2609,17 @@ globalThis.qwebrCreateMonacoEditorInstance = function (cellData) {
 <span id="cb43-3"><a href="#cb43-3" aria-hidden="true" tabindex="-1"></a>d1[<span class="fu">c</span>(<span class="st">"a"</span>, <span class="st">"c"</span>)] <span class="ot">&lt;-</span> <span class="fu">list</span>(<span class="fu">rnorm</span>(<span class="dv">100</span>), <span class="fu">runif</span>(<span class="dv">100</span>))</span>
 <span id="cb43-4"><a href="#cb43-4" aria-hidden="true" tabindex="-1"></a>d1</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
-<pre><code>             a   b         c
-1   2.93028916 110 0.2347217
-2  -0.28528570 111 0.1280478
-3  -0.07273495 112 0.8675576
-4  -1.39133153 113 0.7250560
-5  -0.54652858 114 0.5995073
-6   1.09164117 115 0.1685879
-7   0.71862569 116 0.7697158
-8  -1.88902780 117 0.3991020
-9   2.85287584 118 0.8479088
-10  0.65070784 119 0.1337530</code></pre>
+<pre><code>            a   b          c
+1  -1.7190793 110 0.06899411
+2   1.4432727 111 0.69843387
+3  -0.2982533 112 0.63054671
+4   0.3895335 113 0.85015793
+5  -0.8727988 114 0.12361847
+6  -0.1689203 115 0.94526449
+7  -0.9592595 116 0.86566085
+8   0.5259255 117 0.64610659
+9   1.8416340 118 0.54993571
+10  1.0975011 119 0.61342601</code></pre>
 </div>
 <div class="sourceCode cell-code" id="cb45"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb45-1"><a href="#cb45-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Works: Replace the 'a' and 'c' columns in d1 with a the first two slots in a</span></span>
 <span id="cb45-2"><a href="#cb45-2" aria-hidden="true" tabindex="-1"></a><span class="co"># length-3 list</span></span>
@@ -2696,16 +2696,16 @@ globalThis.qwebrCreateMonacoEditorInstance = function (cellData) {
 <span id="cb55-6"><a href="#cb55-6" aria-hidden="true" tabindex="-1"></a>d2</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>    a   b c          d         V5 alice
-1   1 bob a 0.39551254  0.9116125  TRUE
-2   2 bob b 0.02311933  0.3341865  TRUE
-3   3 bob c 0.16358210  1.3088335  TRUE
-4   4 bob d 0.96102468 -0.5141460  TRUE
-5   5 bob e 0.34147122 -0.3722525  TRUE
-6   6 bob f 0.59231193  0.3462801  TRUE
-7   7 bob g 0.40779073  0.7340008  TRUE
-8   8 bob h 0.94040284  1.4507504  TRUE
-9   9 bob i 0.28812749  0.4430496  TRUE
-10 10 bob j 0.60931561  0.1972789  TRUE</code></pre>
+1   1 bob a 0.61442041 -0.0105563  TRUE
+2   2 bob b 0.99336024 -0.2395205  TRUE
+3   3 bob c 0.35083721 -0.6678822  TRUE
+4   4 bob d 0.58937418 -1.4522268  TRUE
+5   5 bob e 0.09605802  0.3873236  TRUE
+6   6 bob f 0.09893925 -0.5918080  TRUE
+7   7 bob g 0.51361014 -0.8701455  TRUE
+8   8 bob h 0.77551488 -1.3784525  TRUE
+9   9 bob i 0.88055553 -0.7888512  TRUE
+10 10 bob j 0.44399214  0.5668728  TRUE</code></pre>
 </div>
 </div>
 <p>We can add multiple columns using the <code>[]</code> operator.</p>
@@ -2714,17 +2714,17 @@ globalThis.qwebrCreateMonacoEditorInstance = function (cellData) {
 <span id="cb57-2"><a href="#cb57-2" aria-hidden="true" tabindex="-1"></a>d2[<span class="fu">c</span>(<span class="st">"foo"</span>, <span class="st">"bar"</span>)] <span class="ot">&lt;-</span> <span class="fu">list</span>(<span class="cn">TRUE</span>, <span class="cn">FALSE</span>)</span>
 <span id="cb57-3"><a href="#cb57-3" aria-hidden="true" tabindex="-1"></a>d2</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
-<pre><code>    a   b c          d         V5 alice         V7          V8  foo   bar
-1   1 bob a 0.39551254  0.9116125  TRUE -2.4591839 -0.71035093 TRUE FALSE
-2   2 bob b 0.02311933  0.3341865  TRUE -0.4603825 -0.04109860 TRUE FALSE
-3   3 bob c 0.16358210  1.3088335  TRUE  0.1271004  0.85363963 TRUE FALSE
-4   4 bob d 0.96102468 -0.5141460  TRUE  0.2922169 -0.83978767 TRUE FALSE
-5   5 bob e 0.34147122 -0.3722525  TRUE  0.3838345 -0.04331845 TRUE FALSE
-6   6 bob f 0.59231193  0.3462801  TRUE  0.9490207 -0.44625041 TRUE FALSE
-7   7 bob g 0.40779073  0.7340008  TRUE  0.5023876 -0.03732082 TRUE FALSE
-8   8 bob h 0.94040284  1.4507504  TRUE  0.2338697  0.93048072 TRUE FALSE
-9   9 bob i 0.28812749  0.4430496  TRUE -1.4386591 -0.07930940 TRUE FALSE
-10 10 bob j 0.60931561  0.1972789  TRUE  0.8374561  2.30531232 TRUE FALSE</code></pre>
+<pre><code>    a   b c          d         V5 alice         V7         V8  foo   bar
+1   1 bob a 0.61442041 -0.0105563  TRUE -1.5939374 -1.0793539 TRUE FALSE
+2   2 bob b 0.99336024 -0.2395205  TRUE  1.4772136 -1.1600501 TRUE FALSE
+3   3 bob c 0.35083721 -0.6678822  TRUE -1.1498589 -1.2191487 TRUE FALSE
+4   4 bob d 0.58937418 -1.4522268  TRUE  0.4329690 -0.9700584 TRUE FALSE
+5   5 bob e 0.09605802  0.3873236  TRUE  0.5142483 -0.2994792 TRUE FALSE
+6   6 bob f 0.09893925 -0.5918080  TRUE -0.5240982  0.1553770 TRUE FALSE
+7   7 bob g 0.51361014 -0.8701455  TRUE -0.1236745 -0.4210625 TRUE FALSE
+8   8 bob h 0.77551488 -1.3784525  TRUE  0.8173379 -0.3661413 TRUE FALSE
+9   9 bob i 0.88055553 -0.7888512  TRUE  0.2495192 -0.1392587 TRUE FALSE
+10 10 bob j 0.44399214  0.5668728  TRUE  0.6023962  1.1628371 TRUE FALSE</code></pre>
 </div>
 </div>
 <div class="callout callout-style-default callout-practice callout-titled">

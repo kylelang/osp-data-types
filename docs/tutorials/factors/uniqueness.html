@@ -433,12 +433,12 @@ div.callout-resource.callout-style-default .callout-icon::before, div.callout-re
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>f1 <span class="co"># looks a lot like an integer vector</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
-<pre><code> [1] 1 1 1 1 0 0 0 1 1 0
+<pre><code> [1] 0 1 1 0 0 1 1 1 1 0
 Levels: 0 1</code></pre>
 </div>
 <div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>f2 <span class="co"># looks like a character vector</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
-<pre><code> [1] foo foo foo bar foo foo foo foo foo foo
+<pre><code> [1] bar foo bar foo foo foo bar bar foo bar
 Levels: bar foo</code></pre>
 </div>
 <div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Not numeric or character</span></span>
@@ -476,7 +476,7 @@ Levels: bar foo</code></pre>
 <pre><code>[1] FALSE</code></pre>
 </div>
 </div>
-<p>Similarly, even though factors are built from integer vectors, we can’t do mathematical operations on vectors. Since factors represent discrete categories, not continuous quantities, mathematical operations on factors are generally meaningless.</p>
+<p>Similarly, even though factors are built from integer vectors, we can’t do mathematical operations on factors. Since factors represent discrete categories, not continuous quantities, mathematical operations on factors are generally meaningless.</p>
 <div class="cell" data-layout-align="center">
 <div class="sourceCode cell-code" id="cb21"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a>f1 <span class="sc">+</span> <span class="dv">1</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
