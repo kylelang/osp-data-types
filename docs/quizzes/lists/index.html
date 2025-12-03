@@ -430,17 +430,17 @@ $eyes
 </div>
 </div>
 <p>Which of the following expressions will change the value of the <code>eyes</code> slot in <code>l1</code> from “blue” to “green”?</p>
-<div id="webex-ff2995bac07b36862b1a64a0354ddb05" class="webex-checkboxgroup" data-answer="PVceCRUETlBPAGo=">
-<label><input type="checkbox" autocomplete="off" name="ff2995bac07b36862b1a64a0354ddb05"><span><code>l1$eyes &lt;- "green"</code></span></label><label><input type="checkbox" autocomplete="off" name="ff2995bac07b36862b1a64a0354ddb05"><span><code>l1[4, ] &lt;- "green"</code></span></label><label><input type="checkbox" autocomplete="off" name="ff2995bac07b36862b1a64a0354ddb05"><span><code>l1[4] &lt;- "green"</code></span></label><label><input type="checkbox" autocomplete="off" name="ff2995bac07b36862b1a64a0354ddb05"><span><code>l1[[4]] &lt;- "green"</code></span></label><label><input type="checkbox" autocomplete="off" name="ff2995bac07b36862b1a64a0354ddb05"><span><code>l1$4 &lt;- "green"</code></span></label>
+<div id="webex-94bbd1c2a42c8a7242c02851bedc93c7" class="webex-checkboxgroup" data-answer="YgROU0gBTwJNBG8=">
+<label><input type="checkbox" autocomplete="off" name="94bbd1c2a42c8a7242c02851bedc93c7"><span><code>l1$eyes &lt;- "blue"</code></span></label><label><input type="checkbox" autocomplete="off" name="94bbd1c2a42c8a7242c02851bedc93c7"><span><code>l1$eyes &lt;- "green"</code></span></label><label><input type="checkbox" autocomplete="off" name="94bbd1c2a42c8a7242c02851bedc93c7"><span><code>l1$4 &lt;- "green"</code></span></label><label><input type="checkbox" autocomplete="off" name="94bbd1c2a42c8a7242c02851bedc93c7"><span><code>names(l1)[4] &lt;- "green"</code></span></label><label><input type="checkbox" autocomplete="off" name="94bbd1c2a42c8a7242c02851bedc93c7"><span><code>l1$eyes &lt;- green</code></span></label>
 </div>
 </div>
 <div class="webex-solution">
 <ul>
-<li>Correct</li>
-<li>Wrong: l1 is a list, so we should not use matrix-style selection.</li>
-<li>Correct</li>
+<li>Wrong: This command doesn’t actually change anything.</li>
 <li>Correct</li>
 <li>Wrong: There is no slot named “4” in l1.</li>
+<li>Wrong: This command will change the name of the fourth slot, not the contents of that slot.</li>
+<li>Wrong: We’re replacing the value of <code>l4$eyes</code> with the contents of the object <code>green</code>, not the character vector <code>"green"</code>.</li>
 </ul>
 </div>
 </div>

@@ -2,79 +2,79 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://www.openstatprog.com/data-types/tutorials/vectors/vector_operations.html</loc>
-    <lastmod>2025-08-29T21:01:03.511Z</lastmod>
+    <lastmod>2025-09-04T18:38:59.211Z</lastmod>
   </url>
   <url>
     <loc>https://www.openstatprog.com/data-types/tutorials/vectors/generating_vectors.html</loc>
-    <lastmod>2025-09-04T14:15:56.562Z</lastmod>
+    <lastmod>2025-09-04T18:38:59.206Z</lastmod>
   </url>
   <url>
     <loc>https://www.openstatprog.com/data-types/tutorials/vectors/atomic_modes.html</loc>
-    <lastmod>2025-08-29T08:22:48.430Z</lastmod>
+    <lastmod>2025-09-04T18:38:59.201Z</lastmod>
   </url>
   <url>
     <loc>https://www.openstatprog.com/data-types/tutorials/matrices/matrix_operation.html</loc>
-    <lastmod>2025-09-04T14:19:32.738Z</lastmod>
+    <lastmod>2025-09-04T18:38:59.196Z</lastmod>
   </url>
   <url>
     <loc>https://www.openstatprog.com/data-types/tutorials/matrices/index.html</loc>
-    <lastmod>2025-09-04T14:18:32.827Z</lastmod>
+    <lastmod>2025-09-04T18:38:59.191Z</lastmod>
   </url>
   <url>
     <loc>https://www.openstatprog.com/data-types/tutorials/lists/index.html</loc>
-    <lastmod>2025-08-28T13:19:50.222Z</lastmod>
+    <lastmod>2025-09-04T18:38:59.185Z</lastmod>
   </url>
   <url>
     <loc>https://www.openstatprog.com/data-types/tutorials/factors/uniqueness.html</loc>
-    <lastmod>2025-09-04T14:11:14.398Z</lastmod>
+    <lastmod>2025-12-03T16:41:41.533Z</lastmod>
   </url>
   <url>
     <loc>https://www.openstatprog.com/data-types/tutorials/factors/creating.html</loc>
-    <lastmod>2025-09-04T14:23:39.844Z</lastmod>
+    <lastmod>2025-09-04T18:38:59.175Z</lastmod>
   </url>
   <url>
     <loc>https://www.openstatprog.com/data-types/tutorials/data_frames/index.html</loc>
-    <lastmod>2025-09-03T10:36:19.560Z</lastmod>
+    <lastmod>2025-09-04T18:38:59.170Z</lastmod>
   </url>
   <url>
     <loc>https://www.openstatprog.com/data-types/quizzes/vectors/questions/multiplication.html</loc>
-    <lastmod>2025-09-04T14:25:11.711Z</lastmod>
+    <lastmod>2025-09-04T18:38:59.159Z</lastmod>
   </url>
   <url>
     <loc>https://www.openstatprog.com/data-types/quizzes/vectors/index.html</loc>
-    <lastmod>2025-09-04T13:48:26.452Z</lastmod>
+    <lastmod>2025-09-04T18:38:59.154Z</lastmod>
   </url>
   <url>
     <loc>https://www.openstatprog.com/data-types/quizzes/matrices/questions/create_matrix.html</loc>
-    <lastmod>2025-09-04T11:05:38.276Z</lastmod>
+    <lastmod>2025-09-04T18:38:59.149Z</lastmod>
   </url>
   <url>
     <loc>https://www.openstatprog.com/data-types/quizzes/lists/questions/list_name.html</loc>
-    <lastmod>2025-08-28T13:05:47.828Z</lastmod>
+    <lastmod>2025-09-04T18:38:59.144Z</lastmod>
   </url>
   <url>
     <loc>https://www.openstatprog.com/data-types/quizzes/lists/index.html</loc>
-    <lastmod>2025-09-04T13:50:14.946Z</lastmod>
+    <lastmod>2025-09-04T18:38:59.140Z</lastmod>
   </url>
   <url>
     <loc>https://www.openstatprog.com/data-types/quizzes/factors/index.html</loc>
-    <lastmod>2025-09-04T13:52:27.788Z</lastmod>
+    <lastmod>2025-09-04T18:38:59.135Z</lastmod>
   </url>
   <url>
     <loc>https://www.openstatprog.com/data-types/quizzes/data_frames/questions/return_column_as_vector.html</loc>
-    <lastmod>2025-09-04T13:52:09.220Z</lastmod>
+    <lastmod>2025-09-04T18:38:59.131Z</lastmod>
   </url>
   <url>
     <loc>https://www.openstatprog.com/data-types/quizzes/data_frames/index.html</loc>
-    <lastmod>2025-09-04T12:36:17.800Z</lastmod>
+    <lastmod>2025-09-04T18:38:59.126Z</lastmod>
   </url>
   <url>
     <loc>https://www.openstatprog.com/data-types/index.html</loc>
-    <lastmod>2025-09-04T15:14:20.459Z</lastmod>
+    <lastmod>2025-09-04T18:38:59.123Z</lastmod>
   </url>
   <url>
     <loc>https://www.openstatprog.com/data-types/conclusion.html</loc>
-    <lastmod>2025-09-04T15:41:22.555Z</lastmod>
+    <lastmod>2025-09-04T18:38:58.735Z</lastmod>
   </url>
   <url>
     <loc>https://www.openstatprog.com/data-types/in_progress.html</loc>
@@ -82,66 +82,66 @@
   </url>
   <url>
     <loc>https://www.openstatprog.com/data-types/quizzes/data_frames/questions/return_column_as_df.html</loc>
-    <lastmod>2025-09-04T13:51:57.114Z</lastmod>
+    <lastmod>2025-09-04T18:38:59.129Z</lastmod>
   </url>
   <url>
     <loc>https://www.openstatprog.com/data-types/quizzes/data_frames/questions/select_row.html</loc>
-    <lastmod>2025-09-04T10:12:54.506Z</lastmod>
+    <lastmod>2025-09-04T18:38:59.132Z</lastmod>
   </url>
   <url>
     <loc>https://www.openstatprog.com/data-types/quizzes/factors/questions/factor_levels.html</loc>
-    <lastmod>2025-09-04T14:26:44.587Z</lastmod>
+    <lastmod>2025-09-04T18:38:59.137Z</lastmod>
   </url>
   <url>
     <loc>https://www.openstatprog.com/data-types/quizzes/lists/questions/list_change.html</loc>
-    <lastmod>2025-09-04T12:11:26.916Z</lastmod>
+    <lastmod>2025-09-04T18:38:59.143Z</lastmod>
   </url>
   <url>
     <loc>https://www.openstatprog.com/data-types/quizzes/matrices/index.html</loc>
-    <lastmod>2025-09-04T13:49:27.493Z</lastmod>
+    <lastmod>2025-09-04T18:38:59.146Z</lastmod>
   </url>
   <url>
     <loc>https://www.openstatprog.com/data-types/quizzes/matrices/questions/sub_matrix.html</loc>
-    <lastmod>2025-09-04T11:19:50.036Z</lastmod>
+    <lastmod>2025-09-04T18:38:59.151Z</lastmod>
   </url>
   <url>
     <loc>https://www.openstatprog.com/data-types/quizzes/vectors/questions/generation.html</loc>
-    <lastmod>2025-09-04T10:25:29.088Z</lastmod>
+    <lastmod>2025-09-04T18:38:59.157Z</lastmod>
   </url>
   <url>
     <loc>https://www.openstatprog.com/data-types/tutorials/data_frames/creating.html</loc>
-    <lastmod>2025-09-04T14:21:43.245Z</lastmod>
+    <lastmod>2025-09-04T18:38:59.168Z</lastmod>
   </url>
   <url>
     <loc>https://www.openstatprog.com/data-types/tutorials/data_frames/manipulating.html</loc>
-    <lastmod>2025-09-04T14:22:29.694Z</lastmod>
+    <lastmod>2025-09-04T18:38:59.172Z</lastmod>
   </url>
   <url>
     <loc>https://www.openstatprog.com/data-types/tutorials/factors/index.html</loc>
-    <lastmod>2025-09-04T15:22:32.617Z</lastmod>
+    <lastmod>2025-09-04T18:38:59.177Z</lastmod>
   </url>
   <url>
     <loc>https://www.openstatprog.com/data-types/tutorials/lists/creating.html</loc>
-    <lastmod>2025-08-28T14:45:27.006Z</lastmod>
+    <lastmod>2025-09-04T18:38:59.183Z</lastmod>
   </url>
   <url>
     <loc>https://www.openstatprog.com/data-types/tutorials/lists/manipulating.html</loc>
-    <lastmod>2025-09-03T13:12:20.892Z</lastmod>
+    <lastmod>2025-09-04T18:38:59.188Z</lastmod>
   </url>
   <url>
     <loc>https://www.openstatprog.com/data-types/tutorials/matrices/matrix_creation.html</loc>
-    <lastmod>2025-09-03T10:24:42.380Z</lastmod>
+    <lastmod>2025-09-04T18:38:59.194Z</lastmod>
   </url>
   <url>
     <loc>https://www.openstatprog.com/data-types/tutorials/matrices/matrix_selection.html</loc>
-    <lastmod>2025-09-03T10:19:42.768Z</lastmod>
+    <lastmod>2025-09-04T18:38:59.198Z</lastmod>
   </url>
   <url>
     <loc>https://www.openstatprog.com/data-types/tutorials/vectors/elements_selection.html</loc>
-    <lastmod>2025-08-29T20:37:01.008Z</lastmod>
+    <lastmod>2025-09-04T18:38:59.203Z</lastmod>
   </url>
   <url>
     <loc>https://www.openstatprog.com/data-types/tutorials/vectors/index.html</loc>
-    <lastmod>2025-09-04T15:22:24.670Z</lastmod>
+    <lastmod>2025-09-04T18:38:59.208Z</lastmod>
   </url>
 </urlset>

@@ -71,14 +71,14 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 <style>
-div.callout-reading.callout {
-  border-left-color: purple;
+div.callout-reading-advanced.callout {
+  border-left-color: red;
 }
-div.callout-reading.callout-style-default > .callout-header {
-  background-color: rgb(from purple r g b / 13%);
+div.callout-reading-advanced.callout-style-default > .callout-header {
+  background-color: rgb(from red r g b / 13%);
 }
-div.callout-reading .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewbox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"></path></svg>');}
-div.callout-reading.callout-style-default .callout-icon::before, div.callout-reading.callout-titled .callout-icon::before {
+div.callout-reading-advanced .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewbox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"></path></svg>');}
+div.callout-reading-advanced.callout-style-default .callout-icon::before, div.callout-reading-advanced.callout-titled .callout-icon::before {
   font-family: 'Font Awesome 6 Free', FontAwesome;
   font-style: normal;
   content: '\f518' !important;
@@ -97,6 +97,19 @@ div.callout-practice.callout-style-default .callout-icon::before, div.callout-pr
   content: '\f085' !important;
   background-image: none;
 }
+div.callout-reading.callout {
+  border-left-color: purple;
+}
+div.callout-reading.callout-style-default > .callout-header {
+  background-color: rgb(from purple r g b / 13%);
+}
+div.callout-reading .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewbox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"></path></svg>');}
+div.callout-reading.callout-style-default .callout-icon::before, div.callout-reading.callout-titled .callout-icon::before {
+  font-family: 'Font Awesome 6 Free', FontAwesome;
+  font-style: normal;
+  content: '\f518' !important;
+  background-image: none;
+}
 div.callout-resource.callout {
   border-left-color: orange;
 }
@@ -108,19 +121,6 @@ div.callout-resource.callout-style-default .callout-icon::before, div.callout-re
   font-family: 'Font Awesome 6 Free', FontAwesome;
   font-style: normal;
   content: '\f0c1' !important;
-  background-image: none;
-}
-div.callout-reading-advanced.callout {
-  border-left-color: red;
-}
-div.callout-reading-advanced.callout-style-default > .callout-header {
-  background-color: rgb(from red r g b / 13%);
-}
-div.callout-reading-advanced .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewbox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"></path></svg>');}
-div.callout-reading-advanced.callout-style-default .callout-icon::before, div.callout-reading-advanced.callout-titled .callout-icon::before {
-  font-family: 'Font Awesome 6 Free', FontAwesome;
-  font-style: normal;
-  content: '\f518' !important;
   background-image: none;
 }
 </style>
@@ -443,15 +443,15 @@ Note
 <div class="webex-question">
 <div class="webex-check webex-box">
 <p>Which of the following expressions generates the integer vector 1, 2, 3, 4, 5?</p>
-<div id="webex-fcf3479713db730a8f2681b2ea9a4fe6" class="webex-checkboxgroup" data-answer="PVJKAxgGFQYdAjk=">
-<label><input type="checkbox" autocomplete="off" name="fcf3479713db730a8f2681b2ea9a4fe6"><span><code>rep(1:5, 1)</code></span></label><label><input type="checkbox" autocomplete="off" name="fcf3479713db730a8f2681b2ea9a4fe6"><span><code>seq(1, 5, 5)</code></span></label><label><input type="checkbox" autocomplete="off" name="fcf3479713db730a8f2681b2ea9a4fe6"><span><code>seq(1, 5)</code></span></label><label><input type="checkbox" autocomplete="off" name="fcf3479713db730a8f2681b2ea9a4fe6"><span><code>seq(0, 4, 1) + 1</code></span></label><label><input type="checkbox" autocomplete="off" name="fcf3479713db730a8f2681b2ea9a4fe6"><span><code>1:5</code></span></label>
+<div id="webex-d594eecbf52118c3e5a272af23581bfe" class="webex-checkboxgroup" data-answer="PwUVBUlVT1NKBG8=">
+<label><input type="checkbox" autocomplete="off" name="d594eecbf52118c3e5a272af23581bfe"><span><code>rep(1, 5, 1)</code></span></label><label><input type="checkbox" autocomplete="off" name="d594eecbf52118c3e5a272af23581bfe"><span><code>seq(1, 5)</code></span></label><label><input type="checkbox" autocomplete="off" name="d594eecbf52118c3e5a272af23581bfe"><span><code>seq(1, 5, 5)</code></span></label><label><input type="checkbox" autocomplete="off" name="d594eecbf52118c3e5a272af23581bfe"><span><code>seq(0, 4, 1) + 1</code></span></label><label><input type="checkbox" autocomplete="off" name="d594eecbf52118c3e5a272af23581bfe"><span><code>rep(1:5, 1)</code></span></label>
 </div>
 </div>
 <div class="webex-solution">
 <ul>
-<li>Correct.</li>
 <li>Wrong. This command will return a length-one vector containing only 1.</li>
 <li>Correct.</li>
+<li>Wrong. This command will return a length-one vector containing only 1.</li>
 <li>Correct.</li>
 <li>Correct.</li>
 </ul>
@@ -462,8 +462,8 @@ Note
 <p>What is the value of <code>a * b</code>, given the following vectors?</p>
 <p><span class="math display">\[
 \begin{align*}
-a &amp;= 5, 2, 1\\
-b &amp;= 1, 2, 3
+a &amp;= 1, 3, 2\\
+b &amp;= 4, 2, 1
 \end{align*}
 \]</span></p>
 <ul>
@@ -471,10 +471,10 @@ b &amp;= 1, 2, 3
 <li>Separate each element with a comma and a space.</li>
 <li>Incorrectly formatted answers won’t be recognized as correct</li>
 </ul>
-<p><input class="webex-solveme" id="webex-493bec8f094bfd2f7012537067be598d" size="20" data-answer="bxsGTkVXFEYDG2k="></p>
+<p><input class="webex-solveme" id="webex-2c3262296c4ad6327f52be6ae5d70568" size="20" data-answer="aUEHHhYEHhkEQWk="></p>
 </div>
 <div class="webex-solution">
-<p>The <code>a * b</code> implements element-wise multiplication, so the result is 5, 4, 3.</p>
+<p>The <code>a * b</code> implements element-wise multiplication, so the result is 4, 6, 2.</p>
 </div>
 </div>
 </div>
